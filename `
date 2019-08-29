@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Header from "../components/header"
+
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -18,13 +18,5 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default () => (
-	<div style={{color:'dodgerblue' ,marginBottom: `1.45rem`, fontSize:'24px'}}>
-	<Link to="/contact/">Contact</Link>
-	<Header headerText="It's pretty cool" />
-	<Header />Hello World
-	<p1>Howdy</p1>
-	<Image alt=""/>
-	</div>
-)
+export default () => <div style={{color:'dodgerblue' ,marginBottom: `1.45rem`, fontSize:'24px'}}>Hello World</div>
 //export default IndexPage
